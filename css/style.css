@@ -154,7 +154,7 @@ img {
 }
 
 .btn-custom {
-    margin-top: 80px;
+    margin-top: 20px;
     background-color: transparent !important;
     border: 2px solid #ddd;
     padding: 12px 40px;
@@ -602,7 +602,7 @@ a:hover {
 }
 
 .btn_main {
-    width: 800%;
+    width: 00%;
     display: flex;
 }
 
