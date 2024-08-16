@@ -554,7 +554,6 @@ a:hover {
     width: 100%;
     float: left;
     padding-bottom: 150px;
-
 }
 
 .fashion_taital {
@@ -596,9 +595,9 @@ a:hover {
     text-align: center;
   
     min-height: 370px;
-    width: 1000px;
-    height:1000px;
-    padding-right:400px;
+    width: 800px;
+    height:800px;
+    padding:80px;
    
 }
 
