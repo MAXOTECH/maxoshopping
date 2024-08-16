@@ -517,14 +517,12 @@ a:hover {
 }
 
 #my_slider a.carousel-control-next {
-    right: 30px;
+    right: 0px;
     top: 40px;
-    margin-left: 300px;
-
 }
 
 #my_slider a.carousel-control-prev {
-    left: 30px;
+    left: 0px;
     top: 40px;
 }
 
@@ -535,7 +533,7 @@ a:hover {
     background: rgb(242, 222, 172, 0.80);
     opacity: 1;
     font-size: 20px;
-    color: #ff0000;
+    color: #000;
     border-radius: 100px;
 }
 
@@ -572,10 +570,9 @@ a:hover {
 }
 
 .box_main { width: 100%;
-    width: 500px;
+    width: 600px;
     height: 800px;
-    color: #ffffff;
-
+    color: #000;
    
 }
 
