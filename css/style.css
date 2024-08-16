@@ -594,10 +594,11 @@ a:hover {
     width: 100%;
     text-align: center;
   
-    min-height: 370px;
-    width: 800px;
-    height:800px;
-    padding:80px;
+
+    width: 400px;
+    height:400px; 
+ display: flex;
+ padding: 30px;
    
 }
 
