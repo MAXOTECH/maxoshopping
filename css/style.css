@@ -517,13 +517,13 @@ a:hover {
 }
 
 #my_slider a.carousel-control-next {
- 
+    right: 30px;
     top: 40px;
 
 }
 
 #my_slider a.carousel-control-prev {
-   
+    left: 30px;
     top: 40px;
 }
 
@@ -536,6 +536,7 @@ a:hover {
     font-size: 20px;
     color: #ff0000;
     border-radius: 100px;
+    margin-left: 300px;
 }
 
 #my_slider .carousel-control-next:focus,
