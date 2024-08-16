@@ -601,6 +601,7 @@ a:hover {
     width: 500px;
     height: 500px;
     text-align: center;
+    margin-left: 100px;
 }
 
 .btn_main {
