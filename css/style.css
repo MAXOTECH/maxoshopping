@@ -553,7 +553,7 @@ a:hover {
 .fashion_section {
     width: 100%;
     float: left;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
 }
 
 .fashion_taital {
@@ -592,11 +592,12 @@ a:hover {
 
 .tshirt_img {
     width: 100%;
-
-    width: 400px;
-    height:400px; 
+    text-align: center;
+  
+    min-height: 500px;
+    width: 500px;
+    height:500px; 
  display: flex;
-
    
 }
 
