@@ -570,7 +570,8 @@ a:hover {
 }
 
 .box_main {
- 
+  width:500px;
+  height: 500px;
 }
 
 .shirt_text {
