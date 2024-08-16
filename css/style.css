@@ -593,11 +593,11 @@ a:hover {
 .tshirt_img {
     width: 100%;
     text-align: center;
-    margin: 0px 0px;
+  
     min-height: 370px;
     width: 500px;
     height: 500px;
-    margin-right: 700px;
+   
 }
 
 .btn_main {
