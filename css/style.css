@@ -1,3 +1,4 @@
+
 --------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
@@ -214,7 +215,7 @@ button {
 .banner_bg_main {
     width: 100%;
     float: left;
-    background-image: url(../images/rb\ .jpg);
+    background-image: url(../images/banner-bg.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -259,7 +260,7 @@ button {
 }
 
 .custom_menu li a:hover {
-    color: #ff0000;
+    color: #f26522;
 }
 
 
@@ -321,7 +322,7 @@ button {
 }
 
 .sidenav a:hover {
-    color: #ff0000;
+    color: #f26522;
 }
 
 .sidenav .closebtn {
@@ -440,7 +441,7 @@ button {
 }
 
 .login_menu li a:hover {
-    color: #ff0000;
+    color: #f26522;
 }
 
 .padding_10 {
@@ -464,7 +465,7 @@ button {
 }
 
 a:hover {
-    color: #ff0000;
+    color: #f26522;
     text-decoration: underline;
 }
 
@@ -512,7 +513,7 @@ a:hover {
 }
 
 .buynow_bt a:hover {
-    background-color: #ff0000;
+    background-color: #f26522;
     color: #ffffff;
 }
 
@@ -551,7 +552,7 @@ a:hover {
 /* fashion section start */
 
 .fashion_section {
-    width: 80%;
+    width: 100%;
     float: left;
     padding-bottom: 150px;
 }
@@ -569,12 +570,13 @@ a:hover {
     margin-top: 30px;
 }
 
-.box_main { width: 100%;
-    width: 600px;
-    height: 800px;
-    color: #000;
-   
-   
+.box_main {
+    width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0px 0 30px 10px #f0f0f0;
+    margin-bottom: 20px;
 }
 
 .shirt_text {
@@ -594,8 +596,7 @@ a:hover {
     margin: 0px;
 }
 
-.tshirt_img { 
-   
+.tshirt_img {
     width: 100%;
     text-align: center;
     margin: 50px 0px;
@@ -615,7 +616,7 @@ a:hover {
 .buy_bt a {
     width: 100%;
     font-size: 16px;
-    color: #ff0000;
+    color: #f26522;
     background-color: transparent;
     text-align: right;
     font-weight: bold;
@@ -625,363 +626,7 @@ a:hover {
     background-color: transparent;
     color: #262626;
 }
---------------------------------------------------------------*/
-.gallery-details .portfolio-details-slider img {
-  width: 100%;
-}
 
-.gallery-details .swiper-wrapper {
-  height: auto;
-}
-
-.gallery-details .swiper-button-prev,
-.gallery-details .swiper-button-next {
-  width: 48px;
-  height: 48px;
-}
-
-.gallery-details .swiper-button-prev:after,
-.gallery-details .swiper-button-next:after {
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(0, 0, 0, 0.15);
-  font-size: 24px;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
-}
-
-.gallery-details .swiper-button-prev:hover:after,
-.gallery-details .swiper-button-next:hover:after {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 575px) {
-
-  .gallery-details .swiper-button-prev,
-  .gallery-details .swiper-button-next {
-    display: none;
-  }
-}
-
-.gallery-details .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.gallery-details .swiper-pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-  opacity: 1;
-}
-
-.gallery-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
-}
-
-.gallery-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.gallery-details .portfolio-info h3:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: var(--accent-color);
-  left: 0;
-  bottom: 0;
-}
-
-.gallery-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.gallery-details .portfolio-info ul li {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 15px;
-}
-
-.gallery-details .portfolio-info ul strong {
-  text-transform: uppercase;
-  font-weight: 400;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 14px;
-}
-
-.gallery-details .portfolio-info .btn-visit {
-  padding: 8px 40px;
-  background: var(--accent-color);
-  color: var(--contrast-color);
-  border-radius: 50px;
-  transition: 0.3s;
-}
-
-.gallery-details .portfolio-info .btn-visit:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
-.gallery-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.gallery-details .portfolio-description p {
-  padding: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item {
-  padding: 30px 30px 0 30px;
-  position: relative;
-  background: color-mix(in srgb, var(--default-color), transparent 97%);
-  margin-bottom: 50px;
-}
-
-.gallery-details .portfolio-description .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  float: left;
-  margin: 0 10px 0 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 15px 0 5px 0;
-  padding-top: 20px;
-}
-
-.gallery-details .portfolio-description .testimonial-item h4 {
-  font-size: 14px;
-  color: #6c757d;
-  margin: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-left,
-.gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  font-size: 26px;
-  line-height: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.gallery-details .portfolio-description .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 0 0 0;
-  padding: 0;
-}
-.gallery-details .portfolio-details-slider img {
-    width: 100%;
-  }
-  
-  .gallery-details .swiper-wrapper {
-    height: auto;
-  }
-  
-  .gallery-details .swiper-button-prev,
-  .gallery-details .swiper-button-next {
-    width: 48px;
-    height: 48px;
-  }
-  
-  .gallery-details .swiper-button-prev:after,
-  .gallery-details .swiper-button-next:after {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(0, 0, 0, 0.15);
-    font-size: 24px;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-  }
-  
-  .gallery-details .swiper-button-prev:hover:after,
-  .gallery-details .swiper-button-next:hover:after {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-  @media (max-width: 575px) {
-  
-    .gallery-details .swiper-button-prev,
-    .gallery-details .swiper-button-next {
-      display: none;
-    }
-  }
-  
-  .gallery-details .swiper-pagination {
-    margin-top: 20px;
-    position: relative;
-  }
-  
-  .gallery-details .swiper-pagination .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
-    background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-    opacity: 1;
-  }
-  
-  .gallery-details .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: var(--accent-color);
-  }
-  
-  .gallery-details .portfolio-info h3 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-  }
-  
-  .gallery-details .portfolio-info h3:after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: var(--accent-color);
-    left: 0;
-    bottom: 0;
-  }
-  
-  .gallery-details .portfolio-info ul {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-  }
-  
-  .gallery-details .portfolio-info ul li {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 15px;
-  }
-  
-  .gallery-details .portfolio-info ul strong {
-    text-transform: uppercase;
-    font-weight: 400;
-    color: color-mix(in srgb, var(--default-color), transparent 50%);
-    font-size: 14px;
-  }
-  
-  .gallery-details .portfolio-info .btn-visit {
-    padding: 8px 40px;
-    background: var(--accent-color);
-    color: var(--contrast-color);
-    border-radius: 50px;
-    transition: 0.3s;
-  }
-  
-  .gallery-details .portfolio-info .btn-visit:hover {
-    background: color-mix(in srgb, var(--accent-color), transparent 20%);
-  }
-  
-  .gallery-details .portfolio-description h2 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  
-  .gallery-details .portfolio-description p {
-    padding: 0;
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item {
-    padding: 30px 30px 0 30px;
-    position: relative;
-    background: color-mix(in srgb, var(--default-color), transparent 97%);
-    margin-bottom: 50px;
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item .testimonial-img {
-    width: 90px;
-    border-radius: 50px;
-    border: 6px solid var(--background-color);
-    float: left;
-    margin: 0 10px 0 0;
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 15px 0 5px 0;
-    padding-top: 20px;
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item h4 {
-    font-size: 14px;
-    color: #6c757d;
-    margin: 0;
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item .quote-icon-left,
-  .gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-    color: color-mix(in srgb, var(--accent-color), transparent 50%);
-    font-size: 26px;
-    line-height: 0;
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item .quote-icon-left {
-    display: inline-block;
-    left: -5px;
-    position: relative;
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-    display: inline-block;
-    right: -5px;
-    position: relative;
-    top: 10px;
-    transform: scale(-1, -1);
-  }
-  
-  .gallery-details .portfolio-description .testimonial-item p {
-    font-style: italic;
-    margin: 0 0 15px 0 0 0;
-    padding: 0;
-  }
-  
-  .gallery .gallery-item {
-    overflow: hidden;
-    border-right: 3px solid #454035;
-    border-bottom: 3px solid #454035;
-  }
-  
-  .gallery .gallery-item img {
-    transition: all ease-in-out 0.4s;
-  }
-  
-  .gallery .gallery-item:hover img {
-    transform: scale(1.1);
-  }
 .seemore_bt {
     width: 100%;
     float: right;
@@ -998,13 +643,12 @@ a:hover {
 
 .seemore_bt a:hover {
     background-color: transparent;
-    color: #ff0000;
+    color: #f26522;
 }
 
 #main_slider a.carousel-control-next {
     right: 615px;
     top: 105%;
-
 }
 
 #main_slider a.carousel-control-prev {
@@ -1020,11 +664,6 @@ a:hover {
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
-    text-align: center;
-    margin-right: 300px;
-
-    
-    
 }
 
 #main_slider .carousel-control-next:focus,
@@ -1032,7 +671,7 @@ a:hover {
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #ff0000;
+    background-color: #f26522;
 }
 
 
@@ -1073,7 +712,7 @@ a:hover {
 #electronic_main_slider .carousel-control-prev:focus,
 #electronic_main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #ff0000;
+    background-color: #f26522;
 }
 
 
@@ -1120,7 +759,7 @@ a:hover {
 #jewellery_main_slider .carousel-control-prev:focus,
 #jewellery_main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #ff0000;
+    background-color: #f26522;
 }
 
 
@@ -1136,9 +775,9 @@ a:hover {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
     border-top: 16px solid #414744;
-    border-right: 16px solid #ff0000;
+    border-right: 16px solid #f26522;
     border-bottom: 16px solid #414744;
-    border-left: 16px solid #ff0000;
+    border-left: 16px solid #f26522;
     width: 120px;
     height: 120px;
     -webkit-animation: spin 2s linear infinite;
