@@ -1020,6 +1020,7 @@ a:hover {
     font-size: 30px;
     color: #ffffff;
     text-align: center;
+    margin: 300px;
     
     
 }
@@ -1030,7 +1031,6 @@ a:hover {
 #main_slider .carousel-control-prev:hover {
     color: #fff;
     background-color: #ff0000;
-    margin-right: 300px;
 }
 
 
