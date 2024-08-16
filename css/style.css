@@ -189,7 +189,7 @@ blockquote {
 
 button {
     border: 0;
-    margin: 100px;
+    margin: 0;
     padding: 0;
     cursor: pointer;
 }
@@ -602,7 +602,7 @@ a:hover {
 }
 
 .btn_main {
-    width: 00%;
+    width: 100%;
     display: flex;
 }
 
@@ -635,7 +635,7 @@ a:hover {
 
 .gallery-details .swiper-button-prev,
 .gallery-details .swiper-button-next {
-  width: 48px;
+  width: 100px;
   height: 48px;
 }
 
