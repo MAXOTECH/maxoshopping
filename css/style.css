@@ -551,7 +551,7 @@ a:hover {
 /* fashion section start */
 
 .fashion_section {
-    width: 80%;
+    width: 100%;
     float: left;
     padding-bottom: 150px;
 }
@@ -571,7 +571,7 @@ a:hover {
 
 .box_main { width: 100%;
     width: 600px;
-    height: 1000px;
+    height: 600px;
     color: #000;
    
 }
