@@ -522,7 +522,7 @@ a:hover {
 }
 
 #my_slider a.carousel-control-prev {
-    left: 0px;
+    left: 30px;
     top: 40px;
 }
 
