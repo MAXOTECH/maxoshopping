@@ -1003,6 +1003,7 @@ a:hover {
 #main_slider a.carousel-control-next {
     right: 615px;
     top: 105%;
+    margin-left: 300px;
 }
 
 #main_slider a.carousel-control-prev {
@@ -1018,7 +1019,7 @@ a:hover {
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
-    margin-left: 200px;
+    text-align: center;
 }
 
 #main_slider .carousel-control-next:focus,
