@@ -570,6 +570,8 @@ a:hover {
 }
 
 .box_main { size: 2000px;
+    width: 2000px;
+    height: 2000px;
     color: #000;
    
 }
