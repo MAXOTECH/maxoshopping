@@ -551,7 +551,7 @@ a:hover {
 /* fashion section start */
 
 .fashion_section {
-    width: 200%;
+    width: 100%;
     float: left;
     padding-bottom: 150px;
 }
@@ -591,7 +591,8 @@ a:hover {
     margin: 0px;
 }
 
-.tshirt_img {
+.tshirt_img { width: 200px;
+    height: 200px;
     width: 100%;
     text-align: center;
     margin: 50px 0px;
