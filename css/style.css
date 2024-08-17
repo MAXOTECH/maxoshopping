@@ -259,7 +259,7 @@ button {
 }
 
 .custom_menu li a:hover {
-    color: #f26522;
+    color: #ff0000;
 }
 
 
@@ -321,7 +321,7 @@ button {
 }
 
 .sidenav a:hover {
-    color: #f26522;
+    color: #ff0000;
 }
 
 .sidenav .closebtn {
@@ -440,7 +440,7 @@ button {
 }
 
 .login_menu li a:hover {
-    color: #f26522;
+    color: #ff0000;
 }
 
 .padding_10 {
@@ -464,7 +464,7 @@ button {
 }
 
 a:hover {
-    color: #f26522;
+    color: #ff0000;
     text-decoration: underline;
 }
 
@@ -512,7 +512,7 @@ a:hover {
 }
 
 .buynow_bt a:hover {
-    background-color: #f26522;
+    background-color: #ff0000;
     color: #ffffff;
 }
 
@@ -665,7 +665,7 @@ a:hover {
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #f26522;
+    background-color: #ff0000;
 }
 
 
@@ -706,7 +706,7 @@ a:hover {
 #electronic_main_slider .carousel-control-prev:focus,
 #electronic_main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #f26522;
+    background-color: #ff0000;
 }
 
 
@@ -753,7 +753,7 @@ a:hover {
 #jewellery_main_slider .carousel-control-prev:focus,
 #jewellery_main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #f26522;
+    background-color: #ff0000;
 }
 
 
@@ -768,10 +768,10 @@ a:hover {
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #414744;
-    border-right: 16px solid #f26522;
-    border-bottom: 16px solid #414744;
-    border-left: 16px solid #f26522;
+    border-top: 16px solid #000000;
+    border-right: 16px solid #ff0000;
+    border-bottom: 16px solid #000000;
+    border-left: 16px solid #ff0000;
     width: 120px;
     height: 120px;
     -webkit-animation: spin 2s linear infinite;
